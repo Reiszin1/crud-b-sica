@@ -33,7 +33,11 @@ static void Main() {
                 }
                 break;
             case 2:
-            Console.WriteLine(lista);
+            Console.WriteLine("Itens na lista:");
+            for (int j = 0; j < ii; j++)
+            {
+                Console.WriteLine($"{j + 1}. {lista[j]}");
+            }
             break;
             
         }
